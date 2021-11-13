@@ -1,0 +1,42 @@
+ 
+
+ 
+
+ .city-form, .city-button{
+    width: 250px;
+    margin: auto;
+ }
+ .form-container{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+ }
+
+.weather-card{
+  cursor: pointer;
+  width: 15rem;
+  box-shadow: 15px 5px 15px -12px rgb(0 0 0 / 10%);
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  -webkit-transition: .5s;
+  transition: .5s;
+  
+  overflow: hidden;
+  width: 250px;
+  height: auto;
+  display:inline-table;
+}
+.weather-card.card{
+  display:inline-block;
+}
+.cards-container{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  
+ 
+}
+.card-button{
+  width: 100%;
+}
